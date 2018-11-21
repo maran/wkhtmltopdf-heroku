@@ -1,6 +1,6 @@
 # wkhtmltopdf-heroku
 
-Provides a [wkhtmltopdf](http://wkhtmltopdf.org/) binary for [Heroku](http://www.heroku.com/) Ubuntu 16.04 LTS environment.
+Provides a [wkhtmltopdf](http://wkhtmltopdf.org/) binary for [Heroku](http://www.heroku.com/) Ubuntu 18.04 LTS environment.
 
 Preconfigures [pdfkit](https://rubygems.org/gems/pdfkit), [wicked_pdf](https://rubygems.org/gems/wicked_pdf), and [wisepdf](http://rubygems.org/gems/wisepdf) to use this binary if they are loaded.
 
@@ -42,18 +42,19 @@ the executable by using this: `Gem.bin_path('wkhtmltopdf-heroku', 'wkhtmltopdf-l
 
 ## Current wkhtmltopdf binary Version
 
-[0.12.5.0 Linux Generic AMD64](https://github.com/wkhtmltopdf/wkhtmltopdf/tree/0.12.5)
+[0.12.5.0 Bionic AMD64](https://github.com/wkhtmltopdf/wkhtmltopdf/tree/0.12.5)
 
 For more details see wkhtmltopdf [Changelog](https://github.com/wkhtmltopdf/wkhtmltopdf/blob/master/CHANGELOG.md)
 
 ## Supported Heroku Stacks
 
-* [Cedar-16](https://devcenter.heroku.com/articles/heroku-16-stack)
+* [Heroku-18](https://devcenter.heroku.com/articles/heroku-18-stack)
 
 ## Contributors
 
 * @bradphelan
 * @pallymore
+* @gregnavis
 
 ## Copyright
 
