@@ -24,3 +24,11 @@ begin
   end
 rescue LoadError
 end
+
+begin
+  require 'imgkit'
+  IMGKit.configure do |config|
+    config.wkhtmltoimage = WKHTMLTOPDF_PATH if ENV['RACK_ENV'] == 'production'
+  end
+rescue LoadError
+end
